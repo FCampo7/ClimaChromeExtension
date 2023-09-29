@@ -1,0 +1,12 @@
+{
+    "name": "Clima Extension",
+    "version": "1.0.0",
+    "description": "Esta es una Extension de chrome que te permite ver el clima de tu ciudad",
+    "manifest_version": 3,
+    "author": "Francisco Campo",
+	"permissions": ["geolocation"],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Clima"
+    }
+}
